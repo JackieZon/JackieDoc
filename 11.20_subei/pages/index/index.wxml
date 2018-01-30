@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="upper">
+    <view class="info">
+      <view class='item'>物联网</view>
+      <view class='item'>互联网与App开发</view>
+    </view>
+    <view class="mark">
+      <text class="num">888+</text>
+      物联网产品
+      <text class="num">3</text>
+      套互联网前沿新技术
+    </view>
+    <view class='logo'>
+      <image src="{{logo}}"></image>
+    </view>
+  </view>
+  <view class="advisory">
+    <button size="mini" open-type="contact">在线咨询</button>
+    <button size="mini" bindtap="phoneCall">电话咨询</button>
+  </view>
+  <view class="product">
+    <view class="tiem">
+      <view class='icon'>
+        <image src="{{productIcon[0]}}"></image>
+      </view>
+      <text>后台网站开发</text>
+    </view>
+    <view class="tiem">
+      <view class='icon'>
+        <image src="{{productIcon[1]}}"></image>
+      </view>
+      <text>安卓/苹果 App开发</text>
+    </view>
+    <view class="tiem">
+      <view class='icon'>
+        <image src="{{productIcon[2]}}"></image>
+      </view>
+      <text>微信公众号</text>
+    </view>
+    <view class="tiem">
+      <view class='icon'>
+        <image src="{{productIcon[3]}}"></image>
+      </view>
+      <text>微信小程序</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class="main">
+    <view class="upper">
+    </view>
+    <view class="content">
+      <view class="title"><text>Subei 速贝科技</text></view>
+      <view class='info'>
+        <text class='infos'>
+          速贝，专业提供网站，手机及微信三合一解决方案！一个后台，三网同步！专业提供营销型网站建设，外贸多语种网站建设及手机微信网站建设
+        </text>
+      </view>
+      <view class='footer'>
+        <view>www.subei88.com</view>
+        <view>0755-82964655</view>
+        <view>tech@go2100.com</view>
+        <view>深圳市南山区西丽镇鼎新大厦3楼</view>
+      </view>
+    </view>
+  </view>
+</view>

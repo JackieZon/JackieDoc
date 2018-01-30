@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/about/about",
+    "pages/product/product"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f7941c",
+    "navigationBarTitleText": "速贝科技",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ffffff",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "color": "#dbdbdb",
+    "backgroundColor": "#f7941c",
+    "selectedColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/img/home.png",
+        "selectedIconPath": "icon/img/homes.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "定制开发",
+        "iconPath": "icon/img/project.png",
+        "selectedIconPath": "icon/img/projects.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "icon/img/about.png",
+        "selectedIconPath": "icon/img/abouts.png"
+      }
+    ]
+  },
+  "debug": true
+}

@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f7941c",
+    "navigationBarTitleText": "速贝科技",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ffffff",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "color": "#dbdbdb",
+    "backgroundColor": "#f7941c",
+    "selectedColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/img/home-slt.png",
+        "selectedIconPath": "icon/img/home.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "icon/img/about-slt.png",
+        "selectedIconPath": "icon/img/about.png"
+      }
+    ]
+  },
+  "debug": true
+}

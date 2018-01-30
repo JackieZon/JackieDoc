@@ -1,0 +1,20 @@
+<view class="container">
+    <view class="upper">
+        <view class="info">
+            <view class='item'>速贝</view>
+            <view class="intro">懂你才是最合适的！</view>
+        </view>
+    </view>
+    <view class="lower">
+        <view class="product">
+            <view class="box"  wx:for="{{productIcon}}">
+                <view class="item">
+                    <view class='icon'>
+                        <image src="{{item.path}}"></image>
+                    </view>
+                    <text>{{item.project}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

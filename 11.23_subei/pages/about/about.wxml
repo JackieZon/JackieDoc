@@ -1,0 +1,21 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class="main">
+    <view class="upper">
+    </view>
+    <view class="content">
+      <view class="title"><text>Subei 速贝科技</text></view>
+      <view class='info'>
+        <text class='infos'>
+          深圳市速贝科技有限公司，是一家专业的物联网技术研发的科技公司， 以领先的设计水平和技术实力，打造行业品牌、树立速贝形象，为客户提供物联网软件解决方案（APP、微信、后台）、云平台、4G Dtu、物联网卡、等物联网相关服务。
+        </text>
+      </view>
+      <view class='footer'>
+        <view>www.subei88.com</view>
+        <view>0755-82964655</view>
+        <view>tech@go2100.com</view>
+        <view>深圳市南山区西丽镇鼎新大厦3楼</view>
+      </view>
+    </view>
+  </view>
+</view>

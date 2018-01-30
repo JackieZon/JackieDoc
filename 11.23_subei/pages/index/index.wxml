@@ -1,0 +1,67 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="stv-container">
+        <view class="scroll-view">
+            <view bindtouchstart="handlerStart" catchtouchmove="handlerMove" bindtouchcancel="handlerCancel" bindtouchend="handlerEnd" class="scroll-view-wrapper {{!stv.tStart? 'withAnimate': ''}}" style="left: -{{stv.offset}}px">
+                <view style="width: {{stv.windowWidth}}px;" wx:for="{{tabs}}" wx:key="unique" class="one-scene">
+                    <view class="upper">
+                        <view class="info">
+                            <view class='item'>{{item.name}}</view>
+                            <view class='item'>{{item.info}}</view>
+                        </view>
+                        <!-- <view class="mark" wx:if="{{index==0}}">
+                            <text class="num">888+</text> 物联网产品
+                            <text class="num">3</text> 套互联网前沿新技术
+                        </view> -->
+                        <!-- <view class='logo' wx:if="{{index==0}}">
+                            <image src="{{logo}}"></image>
+                        </view> -->
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="tab-bar">
+            <view style="width: {{stv.lineWidth}}px; left: {{stv.offset/tabs.length}}px" class="under-line {{!stv.tStart? 'withAnimate': ''}}"></view>
+        </view>
+    </view>
+
+    <view class="advisory">
+        <button size="mini" open-type="contact">在线咨询</button>
+        <button size="mini" bindtap="phoneCall">电话咨询</button>
+    </view>
+    <view class="product">
+        <view class="tiem">
+            <view class='icon'>
+                <image src="{{productIcon[0]}}"></image>
+            </view>
+            <view class="tiem_info">
+                <text>物联网软件</text>
+                <text>（微信、APP、后台开发 ）</text>
+            </view>
+        </view>
+        <view class="tiem">
+            <view class='icon'>
+                <image src="{{productIcon[1]}}"></image>
+            </view>
+            <view class="tiem_info">
+                <text>云平台</text>
+            </view>
+        </view>
+        <view class="tiem">
+            <view class='icon'>
+                <image src="{{productIcon[2]}}"></image>
+            </view>
+            <view class="tiem_info">
+                <text>4G Dtu</text>
+            </view>
+        </view>
+        <view class="tiem">
+            <view class='icon'>
+                <image src="{{productIcon[3]}}"></image>
+            </view>
+            <view class="tiem_info">
+               <text>物联网卡</text>
+            </view>
+        </view>
+    </view>
+</view>
